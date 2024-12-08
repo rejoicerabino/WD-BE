@@ -1,0 +1,46 @@
+
+body {
+    background-image:  url('../img/view.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Carton Six', sans-serif;
+    background: linear-gradient(45deg, #FF8C00 0%, #FFD700 35%, #00CED1 70%, #FF1493 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 30px ;
+}
+
+.img {
+    border-radius: 15px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    font-family: "Lexend", sans-serif;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+.card-text {
+    font-family: "Lexend", sans-serif;
+    color: whitesmoke;
+    max-width: 400px;
+}
+
+.img-elements {
+    height: 100%; 
+    object-fit: cover; 
+    padding: 20px;
+    max-width:100%;
+}
+
