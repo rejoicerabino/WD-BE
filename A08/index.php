@@ -32,6 +32,7 @@ while ($islandOfPersonality = mysqli_fetch_assoc($islandOfPersonalityResults)) {
     <link href="https://fonts.cdnfonts.com/css/carton-six" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="shared/assets/css/style.css">
+    <link rel="icon" href="assets/images/iopIcon.png" type="image/x-icon">
     <style>
         .sub-message {
             font-family: "Montserrat", sans-serif;
@@ -43,7 +44,7 @@ while ($islandOfPersonality = mysqli_fetch_assoc($islandOfPersonalityResults)) {
         }
 
         .bgimg {
-            background-image: url('shared/assets/img/iobg.png');
+            background-image: url('assets/images/iobg.png');
             min-height: 100%;
             background-position: center;
             background-size: cover;

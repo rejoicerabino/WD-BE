@@ -20,7 +20,7 @@ class islandOfPersonality
     return '
         <div class="col-12 col-lg-6 p-4 d-flex justify-content-center" style="overflow: hidden;">
             <div class="card" style="width: 500px; height: 100%; background-color: ' . $this->color . '; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-                <img src="shared/assets/img/' . $this->image . '" class="card-img-top img-fluid" alt="Island Image" style="border-radius: 15px 15px 0 0;">
+                <img src="assets/images/' . $this->image . '" class="card-img-top img-fluid" alt="Island Image" style="border-radius: 15px 15px 0 0;">
                 <div class="card-body d-flex flex-column justify-content-center align-items-center text-center" style=" padding: 20px;">
                     <h5 class="card-title islandName" style="color: white; margin-bottom: 20px;">' . $this->name . '</h5>
                     <p class="card-text" style="color: white; margin-bottom: 30px; text-align: center;">' . $this->shortDescription . '</p>
@@ -78,7 +78,7 @@ class islandContent
                 <div class="card mb-3 mx-3 mb-5" style="max-width:70%; background-color:' . $this->color . '; height: 100%;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="shared/assets/img/' . $this->image . '" class="img-fluid rounded img-elements" alt="Image for ' . $this->content . '">
+                            <img src="assets/images/' . $this->image . '" class="img-fluid rounded img-elements" alt="Image for ' . $this->content . '">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body d-flex flex-column justify-content-center" style="height: 100%;">
